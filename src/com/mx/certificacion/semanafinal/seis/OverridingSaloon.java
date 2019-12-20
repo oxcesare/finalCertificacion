@@ -5,17 +5,20 @@
  */
 package com.mx.certificacion.semanafinal.seis;
 
-import java.util.List;
-
 /**
  *
  * @author Supaada-q214
  */
-public class Test {
-    
-    
-    public void m1(List<? extends Number> list){
-        
-        Number n = list.get(0);
+abstract class Saloon {
+
+    protected int m1() {
+        return 0;
+    }
+}
+
+public class OverridingSaloon extends Saloon {
+
+    int m1() {
+        return 1;
     }
 }

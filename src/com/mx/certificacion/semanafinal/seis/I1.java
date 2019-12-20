@@ -5,17 +5,12 @@
  */
 package com.mx.certificacion.semanafinal.seis;
 
-import java.util.List;
-
 /**
  *
  * @author Supaada-q214
  */
-public class Test {
+public interface I1 {
+
     
-    
-    public void m1(List<? extends Number> list){
-        
-        Number n = list.get(0);
-    }
+void m1() throws java.io.IOException;
 }

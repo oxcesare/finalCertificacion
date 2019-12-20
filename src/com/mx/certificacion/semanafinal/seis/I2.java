@@ -5,17 +5,13 @@
  */
 package com.mx.certificacion.semanafinal.seis;
 
-import java.util.List;
+import java.io.IOException;
 
 /**
  *
  * @author Supaada-q214
  */
-public class Test {
-    
-    
-    public void m1(List<? extends Number> list){
-        
-        Number n = list.get(0);
-    }
+public interface I2 {
+
+    void m1()throws IOException;
 }
