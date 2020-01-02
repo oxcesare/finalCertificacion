@@ -23,5 +23,4 @@ public class Test2 {
                 .sequential()
                 .forEach(i -> System.out.println(Thread.currentThread() + "\ti=" + i));
     }
-
 }
