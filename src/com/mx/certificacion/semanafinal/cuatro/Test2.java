@@ -5,6 +5,7 @@
  */
 package com.mx.certificacion.semanafinal.cuatro;
 
+import java.time.LocalDate;
 import java.util.Optional;
 
 /**
@@ -24,6 +25,12 @@ public class Test2 {
         boolean res = validateNull(test, test);
         
         System.out.println("Resultado Aplicando Optional" + " " + res);
+        
+        
+        LocalDate date1 = LocalDate.of(2015, 12, 27);
+        date1.lengthOfMonth();
+        
+        
     }
     
     

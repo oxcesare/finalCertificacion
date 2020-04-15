@@ -7,6 +7,9 @@ package com.mx.certificacion.semanafinal.doce;
 
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
 
 /**
  *
@@ -19,6 +22,18 @@ public class Test5 {
         Path p2 = Paths.get("z");
         Path p3 = p1.relativize(p2);
         System.out.println(p3);
+        
+        /*  */
+        
+        /* almacena sus objetos de manera dinamica  */
+        List<String> a = new ArrayList<>();
+        a.remove(new Object());
+        
+        /* Usa una doble lista para almacenar sus elementos */
+        List<String> b = new LinkedList<>();
+        b.remove(new Object());
+        
+        
     }
 
 }
